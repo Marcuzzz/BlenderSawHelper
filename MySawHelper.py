@@ -207,7 +207,7 @@ def createPlanks(length, width, height, cut, name):
         largest, middle, smallest = dimensions_sorted
 
         b = a + 1
-        print(f"Plank '{b}': {largest} m x {middle} m x {smallest} m")
+        bprint(f"Plank '{b}': {largest} m x {middle} m x {smallest} m")
 
         # planks to be cut
         plank_dims.append([largest, middle])
