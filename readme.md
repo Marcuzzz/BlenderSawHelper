@@ -1,10 +1,13 @@
 # MySawHelper
 =======================
 
+![ Alt text](screenrecording.gif)
+
 This Blender addon provides a simple way to generate a set of planks using random colors, dimensions, and materials based on input parameters.
 
 ## Installation
 User Preferences -> Addons -> Plugins (Python) -> mysawhelper
+
 Note: You may have to click the arrow icon next to 'Disabled' to enable the addon before you can see it listed here. Also check that 'Allow Scripting' checkbox if everything appears disabled.
 
 ## Configuration
@@ -28,5 +31,3 @@ Generates objects with randomly selected RGB color values between 0 and 1
 Configure predefined list of colors and/or toggle their usage in color generation logic
 ### Customizable Dimensions & Randomization: 
 Determine how generative parameters behave -- lenthWidthRatio (floating point ratio between length and width; default is 7.5), -- heightPercent (percentage amount to subtract fr
-
-![ Alt text](screenrecording.gif)
