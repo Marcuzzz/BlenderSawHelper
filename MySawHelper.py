@@ -132,11 +132,11 @@ def createOtherPlanks(mainplank, plank_dims, cut, colors, coll, depth=0.018):
                 x += plank_dim[0]
                 print(x, y, "added ver")
             else:
-                print(f"we need another plaat for this {plank_dim}")
+                bprint(f"we need another plaat for this {plank_dim}")
                 abort = True
 
         if abort:
-            print(f"Can't fit plank with dimensions {plank_dim}")
+            bprint(f"Can't fit plank with dimensions {plank_dim}")
 
 
 def initBoundries(width, length, height):
